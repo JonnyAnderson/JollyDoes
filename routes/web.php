@@ -20,5 +20,5 @@ Route::get('/ido/registry', function () {
 });
 
 Route::get('/ido/rsvp', function () {
-    return view('home');
+    return redirect('https://docs.google.com/forms/d/e/1FAIpQLSd_WazCjrINn0ljIVKDALHZqPyesEapTlv4gHutt9McxnDT_A/viewform?usp=sf_link');
 });
