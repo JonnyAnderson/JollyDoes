@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('home');
 });
+
+Route::get('/ido/registry', function () {
+	return redirect('https://www.amazon.com/wedding/share/jolly');
+});
+
+Route::get('/ido/rsvp', function () {
+    return view('home');
+});
