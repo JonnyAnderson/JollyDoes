@@ -80,9 +80,7 @@
             <div class="content">
                 <div class="title m-b-md">
                     #JollyDoes
-                </div>
-                <div class="title s-b-md">
-                    #JollyDoes
+                    <br /><small>coming soon...</small>
                 </div>
             </div>
         </div>
