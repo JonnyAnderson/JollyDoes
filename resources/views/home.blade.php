@@ -80,8 +80,8 @@
             <div class="content">
                 <div class="title m-b-md">
                     #JollyDoes
-                    <br /><small>coming soon...</small>
                 </div>
+                    <div class="links">coming soon...</div>
             </div>
         </div>
     </body>
