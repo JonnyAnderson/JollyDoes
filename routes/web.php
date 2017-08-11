@@ -12,8 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('home')->name('home');
-});
+    return view('home');
+})->name('home');
 
 Route::get('/ido/registry', function () {
 	return redirect('https://www.amazon.com/wedding/share/jolly');
