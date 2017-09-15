@@ -15,18 +15,28 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
+
+
+// #JollyDoesIDo...
+
+Route::get('/ido',					'IDoController@index')->name('ido');
+
 Route::get('/ido/registry', function () {
 	return redirect('https://www.amazon.com/wedding/share/jolly');
-})->name('wedding.registry');
+})->name('ido.registry');
 
 Route::get('/registry', function () {
-	return redirect()->route('wedding.registry');
+	return redirect()->route('ido.registry');
 });
 
 Route::get('/ido/rsvp', function () {
     return redirect('https://docs.google.com/forms/d/e/1FAIpQLSd_WazCjrINn0ljIVKDALHZqPyesEapTlv4gHutt9McxnDT_A/viewform?usp=sf_link');
-})->name('wedding.rsvp');
+})->name('ido.rsvp');
 
 Route::get('/rsvp', function () {
-	return redirect()->route('wedding.rsvp');
+	return redirect()->route('ido.rsvp');
+});
+
+Route::get('/RSVP', function () {
+	return redirect()->route('ido.rsvp');
 });
