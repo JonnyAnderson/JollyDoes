@@ -29,6 +29,26 @@ Route::get('/registry', function () {
 	return redirect()->route('ido.registry');
 });
 
+Route::get('/Registry', function () {
+	return redirect()->route('ido.registry');
+});
+
+Route::get('/IDo/registry', function () {
+	return redirect()->route('ido.registry');
+});
+
+Route::get('/IDo/Registry', function () {
+	return redirect()->route('ido.registry');
+});
+
+Route::get('/IDO/registry', function () {
+	return redirect()->route('ido.registry');
+});
+
+Route::get('/IDO/Registry', function () {
+	return redirect()->route('ido.registry');
+});
+
 Route::get('/ido/rsvp', function () {
     return redirect('https://docs.google.com/forms/d/e/1FAIpQLSd_WazCjrINn0ljIVKDALHZqPyesEapTlv4gHutt9McxnDT_A/viewform?usp=sf_link');
 })->name('ido.rsvp');
@@ -40,3 +60,23 @@ Route::get('/rsvp', function () {
 Route::get('/RSVP', function () {
 	return redirect()->route('ido.rsvp');
 });
+
+Route::get('/IDo/RSVP', function () {
+	return redirect()->route('ido.rsvp');
+});
+
+Route::get('/IDo/rsvp', function () {
+	return redirect()->route('ido.rsvp');
+});
+
+Route::get('/IDO/RSVP', function () {
+	return redirect()->route('ido.rsvp');
+});
+
+Route::get('/IDO/rsvp', function () {
+	return redirect()->route('ido.rsvp');
+});
+
+
+
+
